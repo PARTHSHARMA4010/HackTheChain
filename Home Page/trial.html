@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="incrementButton">Add</button>
+        <span id="counter">0</span>
+        <button id="decrementButton" style="display: none;">-</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const incrementButton = document.getElementById('incrementButton');
+            const decrementButton = document.getElementById('decrementButton');
+            const counter = document.getElementById('counter');
+            let count = 0;
+
+            function updateCounterDisplay() {
+                if (count === 0) {
+                    incrementButton.textContent = 'Add';
+                    incrementButton.style.display = 'inline';
+                    decrementButton.style.display = 'none';
+                } else {
+                    incrementButton.textContent = '+';
+                    incrementButton.style.display = 'inline';
+                    decrementButton.style.display = 'inline';
+                }
+                counter.textContent = count;
+            }
+
+            incrementButton.addEventListener('click', function () {
+                count++;
+                updateCounterDisplay();
+            });
+
+            decrementButton.addEventListener('click', function () {
+                if (count > 0) {
+                    count--;
+                    updateCounterDisplay();
+                }
+            });
+
+            updateCounterDisplay();
+        });
+    </script>
+</body>
+</html>

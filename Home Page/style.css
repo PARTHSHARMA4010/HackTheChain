@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+.food {
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.meal {
+    margin-left: 12%;
+    font-size: 21px;
+}
+
+.meal2 {
+    margin-left: 10.5%;
+    font-size: 21px;
+}
+
+.par {
+    color: aliceblue;
+}
+
+.imgmeal {
+    margin-left: -1000px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.aloo {
+    color: antiquewhite;
+    margin-left: 250px;
+}
+
+.flex59 {
+    display: flex;
+    color: antiquewhite;
+    margin-left: 700px;
+}
+
+.item {
+    margin-left: 300px;
+    font-weight: bolder;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.rate {
+    color: antiquewhite;
+    margin-left: 355px;
+}
+
+.add {
+    color: antiquewhite;
+    margin-left: 305px;
+}
+
+.parth {
+    color: antiquewhite;
+    margin-left: 295px;
+    font-size: 21px;
+}
+
+.Tea-Rate {
+    margin-left : 420px;
+    color: white;
+}
+
+.Cone-Rate {
+    margin-left : 410px;
+    color: white;
+}
+
+.bar-rate {
+    color: white;
+    margin-left : 300px;
+
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .meal {
+        margin-left: 8%;
+    }
+
+    .meal2 {
+        margin-left: 7%;
+    }
+
+    .aloo {
+        margin-left: 100px;
+    }
+
+    .flex59 {
+        margin-left: 100px;
+    }
+
+    .item {
+        margin-left: 150px;
+    }
+
+    .rate {
+        margin-left: 155px;
+    }
+
+    .add {
+        margin-left: 105px;
+    }
+
+    .parth {
+        margin-left: 95px;
+    }
+
+    .price{
+        margin-left: 250px;
+    }
+
+    .item{
+        margin-left: 100px;
+    }
+
+    .Tea-Rate {
+        margin-left: 220px;
+
+    }
+
+    .Cone-Rate {
+        margin-left: 210px;
+    }
+
+    .bar-rate {
+        margin-left: 100px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .price{
+        margin-left: 250px;
+    }
+
+    .item{
+        margin-right: 1000px;
+    }
+
+    .meal {
+        margin-left: 5%;
+    }
+
+    .meal2 {
+        margin-left: 3%;
+    }
+
+    .imgmeal {
+        display: none;
+    }
+
+    .aloo {
+        margin-left: 50px;
+    }
+
+    .flex59 {
+        margin-left: 0px;
+    }
+
+    /* .item {
+        margin-left: 100px;
+    } */
+
+    .rate {
+        margin-left: 105px;
+    }
+
+    .add {
+        margin-left: 55px;
+    }
+
+    .parth {
+        margin-left: 100px;
+    }
+
+    .Tea-Rate{
+        margin-left: 170px;
+    }
+
+    .Cone-Rate{
+        margin-left: 160px;
+    }
+
+    .bar-rate {
+        margin-left: 50px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .meal {
+        margin-left: 3%;
+    }
+
+    .meal2 {
+        margin-left: 2%;
+    }
+
+    .aloo {
+        margin-left: 30px;
+    }
+
+    .flex59 {
+        /* margin-left: 30px; */
+    }
+
+    .item {
+        margin-left: 50px;
+    }
+
+    .price{
+        margin-left: 175px;
+    }
+
+    .rate {
+        margin-left: 55px;
+    }
+
+    .add {
+        margin-left: 30px;
+    }
+
+    .parth {
+        margin-left: 25px;
+    }
+
+    .Tea-Rate{
+        margin-left: 119px;
+
+    }
+
+    .Cone-Rate{
+        margin-left: 110px;
+
+    }
+    .bar-rate {
+        margin-left: 5px;
+
+    }
+}
+

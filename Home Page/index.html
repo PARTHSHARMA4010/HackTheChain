@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="https://iiitkota.ac.in/static/media/logo.b831a251.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+</head>
+<body class="bg-gray-900">
+    
+  <!-- navigation bar starts from here  -->
+
+  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="https://iiitkota.ac.in/static/media/logo.b831a251.png" class="h-8" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">IIIT KOTA</span>
+        </a>
+        <button onclick="toggleMenu()" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <li>
+                    <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                </li>
+                <!-- <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                </li> -->
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                </li>
+                <li>
+                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">My Cart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+ <!-- navigation bar ends here  -->
+
+
+<div class="food">
+    <h2>Hungry !!</h2>
+</div>
+
+<br>
+<br>
+
+<!-- 1st  accordian  -->
+
+<div id="accordion-collapse" data-accordion="collapse">
+    <h2 id="accordion-collapse-heading-1">
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+        <span class="meal">Meals</span>
+        <span class="imgmeal"><img  class="rounded-full w-20 h-20" src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="80px"></span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+        <!-- <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p> -->
+        <!-- <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p> -->
+       <div class="flex59">
+       <div class="price">Price</div>
+       <div class="item">Items</div>
+    </div>
+        <br><br>
+        <span class="aloo">Aloo Paratha</span>
+        <span class="rate">40Rs</span>
+        <span class="parth">
+          
+          <button id="decrementButton2" style="display: none;">-</button>
+          <span id="counter2">0</span>
+          <button id="incrementButton2">Add</button>
+        </span>
+        <br>
+        <br>
+        <span class="aloo">Maggi</span>
+        <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35Rs</span>
+        <!-- <span class="add"><button>Add</button></span>
+         -->
+         <span class="parth">
+          <button id="decrementButton3" style="display: none;">-</button>
+          <span id="counter3">0</span>
+          
+          <button id="incrementButton3">Add</button>
+        </span>
+        <br>
+        <br>
+        <span class="aloo">Chaumine</span>
+        <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;40Rs</span>
+        <span class="parth">
+          <button id="decrementButton4" style="display: none;">-</button>
+          <span id="counter4">0</span>
+          <button id="incrementButton4">Add</button>
+          
+        </span>
+        <br>
+        <br>
+        <span class="aloo">Veg Roll</span>
+        <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40Rs</span>
+        <span class="parth">
+        
+        <button id="decrementButton" style="display: none;">-</button>
+        <span id="counter">0</span>
+        <button id="incrementButton">Add</button>
+      </span>
+      </div>
+    </div>
+    <h2 id="accordion-collapse-heading-2">
+      
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+        <span class="meal">Drinks</span>
+        <span class="imgmeal"><img class="rounded-full w-20 h-20" src="https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="80px"></span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/asvg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+      <div class="flex59">
+        <div class="price">Price</div>
+        <div class="item">Items</div>
+     </div>
+     <br><br>
+     <span class="aloo">Tea</span>
+     <span class="Tea-Rate">10Rs</span>
+     <span class="parth">
+
+      <!-- increment and decrement in tea -->
+      <button id="decrementButton10" style="display: none;">-</button>
+      <span id="counter10">0</span>
+      <button id="incrementButton10">Add</button>
+    </span>
+    <br>
+    <br>
+
+    <!-- coffeee -->
+        <span class="aloo">Coffee</span>
+        <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20Rs</span>
+
+        <!-- increment and decrement in cofee -->
+        <span class="parth">
+        
+          <button id="decrementButton11" style="display: none;">-</button>
+          <span id="counter11">0</span>
+          <button id="incrementButton11">Add</button>
+        </span>
+
+      <!-- <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+        </div> -->
+        <br>
+    </div>
+    <h2 id="accordion-collapse-heading-3">
+      <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+        <span class="meal2">Ice-Creams</span>
+        <span class="imgmeal"><img class="rounded-full w-20 h-20" src="https://images.pexels.com/photos/2819088/pexels-photo-2819088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="80px"></span>
+        
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+
+
+
+    <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+      <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+            <div class="flex59">
+        <div class="price">Price</div>
+        <div class="item">Items</div>
+     </div>
+     <br><br>
+     <span class="aloo">cone</span>
+     <span class="Cone-Rate">40Rs</span>
+     <span class="parth">
+
+      <!-- increment and decrement in cone -->
+      <button id="decrementButton12" style="display: none;">-</button>
+      <span id="counter12">0</span>
+      <button id="incrementButton12">Add</button>
+    </span>
+    <br>
+    <br>
+
+    <!-- ice-cream bar -->
+        <span class="aloo">ice-cream-bar</span>
+        <span class="bar-rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20Rs</span>
+
+        <!-- increment and decrement in ice-cream-bar -->
+        <span class="parth">
+        
+          <button id="decrementButton13" style="display: none;">-</button>
+          <span id="counter13">0</span>
+          <button id="incrementButton13">Add</button>
+        </span>
+<!-- 
+      <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+        </div> -->
+      </div>
+    </div>
+    <h2 id="accordion-collapse-heading-4">
+        <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-4">
+          <span class="meal">Chips</span>
+          <span class="imgmeal"><img  class="rounded-full w-20 h-20" src="https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="80px"></span>
+          <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+          </svg>
+        </button>
+      </h2>
+      <div id="accordion-collapse-body-4 " class="hidden" aria-labelledby="accordion-collapse-heading-4">
+        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+          <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+          <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+        </div>
+
+        
+  </div>
+  <!-- <h1 class="par">parth </h1> -->
+  <hr style="color: rgb(104, 104, 95);">
+  
+
+
+  <script src="app.js"></script>
+</body>
+</html>
