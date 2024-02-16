@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="https://iiitkota.ac.in/static/media/logo.b831a251.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script src="UserCart.js" defer></script>
 </head>
 <body class="bg-gray-900">
     
@@ -51,7 +52,7 @@
 
 
 <div class="food">
-    <h2>Hungry !!</h2>
+    <button class="hungry">Hungry !!</button>
 </div>
 
 <br>
@@ -78,45 +79,45 @@
        <div class="item">Items</div>
     </div>
         <br><br>
-        <span class="aloo">Aloo Paratha</span>
+        <span class="aloo" id="Aloo paratha">Aloo Paratha</span>
         <span class="rate">40Rs</span>
         <span class="parth">
           
-          <button id="decrementButton2" style="display: none;">-</button>
-          <span id="counter2">0</span>
-          <button id="incrementButton2">Add</button>
+          <button class= dev id="decrementButton2" style="display: none;" class="dec">-</button>
+          <span id="counter2" class="counter">0</span>
+          <button id="incrementButton2" class="inc">Add</button>
         </span>
         <br>
         <br>
-        <span class="aloo">Maggi</span>
+        <span class="aloo" id="Maggi">Maggi</span>
         <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35Rs</span>
         <!-- <span class="add"><button>Add</button></span>
          -->
          <span class="parth">
-          <button id="decrementButton3" style="display: none;">-</button>
-          <span id="counter3">0</span>
+          <button id="decrementButton3" style="display: none;"  class="dec">-</button>
+          <span id="counter3" class="counter">0</span>
           
-          <button id="incrementButton3">Add</button>
+          <button id="incrementButton3" class="inc">Add</button>
         </span>
         <br>
         <br>
-        <span class="aloo">Chaumine</span>
+        <span class="aloo" id="chowmien">Chowmine</span>
         <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;40Rs</span>
         <span class="parth">
-          <button id="decrementButton4" style="display: none;">-</button>
-          <span id="counter4">0</span>
-          <button id="incrementButton4">Add</button>
+          <button id="decrementButton4" style="display: none;" class="dec">-</button>
+          <span id="counter4" class="counter">0</span>
+          <button id="incrementButton4" class="inc">Add</button>
           
         </span>
         <br>
         <br>
-        <span class="aloo">Veg Roll</span>
+        <span class="aloo" id="veg roll">Veg Roll</span>
         <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40Rs</span>
         <span class="parth">
         
-        <button id="decrementButton" style="display: none;">-</button>
-        <span id="counter">0</span>
-        <button id="incrementButton">Add</button>
+        <button id="decrementButton" style="display: none;" class="dec">-</button>
+        <span id="counter" class="counter">0</span>
+        <button id="incrementButton" class="inc">Add</button>
       </span>
       </div>
     </div>
@@ -136,28 +137,28 @@
         <div class="item">Items</div>
      </div>
      <br><br>
-     <span class="aloo">Tea</span>
+     <span class="aloo" id="tea">Tea</span>
      <span class="Tea-Rate">10Rs</span>
      <span class="parth">
 
       <!-- increment and decrement in tea -->
-      <button id="decrementButton10" style="display: none;">-</button>
-      <span id="counter10">0</span>
-      <button id="incrementButton10">Add</button>
+      <button id="decrementButton10" style="display: none;" class="dec">-</button>
+      <span id="counter10" class="counter">0</span>
+      <button id="incrementButton10" class="inc">Add</button>
     </span>
     <br>
     <br>
 
     <!-- coffeee -->
-        <span class="aloo">Coffee</span>
+        <span class="aloo" id="coffee">Coffee</span>
         <span class="rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20Rs</span>
 
         <!-- increment and decrement in cofee -->
         <span class="parth">
         
-          <button id="decrementButton11" style="display: none;">-</button>
-          <span id="counter11">0</span>
-          <button id="incrementButton11">Add</button>
+          <button id="decrementButton11" style="display: none;" class="dec">-</button>
+          <span id="counter11" class="counter">0</span>
+          <button id="incrementButton11" class="inc">Add</button>
         </span>
 
       <!-- <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -184,28 +185,28 @@
         <div class="item">Items</div>
      </div>
      <br><br>
-     <span class="aloo">cone</span>
+     <span class="aloo" id="cone">cone</span>
      <span class="Cone-Rate">40Rs</span>
      <span class="parth">
 
       <!-- increment and decrement in cone -->
-      <button id="decrementButton12" style="display: none;">-</button>
-      <span id="counter12">0</span>
-      <button id="incrementButton12">Add</button>
+      <button id="decrementButton12" style="display: none;" class="dec">-</button>
+      <span id="counter12" class="counter">0</span>
+      <button id="incrementButton12" class="inc">Add</button>
     </span>
     <br>
     <br>
 
     <!-- ice-cream bar -->
-        <span class="aloo">ice-cream-bar</span>
+        <span class="aloo" id="cream bar">ice-cream-bar</span>
         <span class="bar-rate">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20Rs</span>
 
         <!-- increment and decrement in ice-cream-bar -->
         <span class="parth">
         
-          <button id="decrementButton13" style="display: none;">-</button>
-          <span id="counter13">0</span>
-          <button id="incrementButton13">Add</button>
+          <button id="decrementButton13" style="display: none;" class="dec">-</button>
+          <span id="counter13" class="counter">0</span>
+          <button id="incrementButton13" class="inc">Add</button>
         </span>
 <!-- 
       <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
@@ -232,6 +233,9 @@
   <!-- <h1 class="par">parth </h1> -->
   <hr style="color: rgb(104, 104, 95);">
   
+
+  <!-- view cart button -->
+  <button class="viewcart"> <span>Cart</span></button>
 
 
   <script src="app.js"></script>
