@@ -1,0 +1,22 @@
+body{
+    background-color: #212121;
+    z-index: -1;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+
+
+.header {
+    color:black ;
+    text-align:center;
+    background-color: white;
+    font-weight: 800;
+    font-family: cursive;
+    font-size: xx-large;
+}

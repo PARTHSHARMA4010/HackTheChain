@@ -91,7 +91,7 @@
     color : white;
     position: absolute;
     background-color: orange;
-    left : 900px;
+    left : 600px;
     padding: 10px;
     font-weight: 600;
     font-size: x-large;
@@ -116,6 +116,15 @@
 .meal {
     color: rgb(255, 183, 0);
     font-family: cursive;
+
+}
+
+.meal:hover {
+    transform: scale(2.2);
+}
+
+.meal2:hover {
+    transform: scale(2.1);
 
 }
 
@@ -193,8 +202,64 @@
   }
 
 
+  .inc {
+    background:aqua;
+    border-radius: 12px;
+    width: 60px;
+    color: black;
+    font-weight: 500;
+  }
 
-  
+  .dec {
+    background:aqua;
+    border-radius: 12px;
+    width: 60px;
+    color: black;
+    font-weight: 500;
+  }
+
+  #home {
+     color: white;
+     background-color: #000;
+     width:80px;
+     text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+  #About {
+    color: white;
+    background-color: #000;
+    width:80px;
+   text-align: center;
+   font-family: cursive;
+   box-shadow: 0 0 30px pink;
+
+  }
+
+  #contact {
+    color: white;
+    background-color: #000;
+    width:80px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+  #my-cart {
+    color: white;
+    background-color: #000;
+    width:80px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+
+
   
   @keyframes zoom-in-zoom-out {
     0% {

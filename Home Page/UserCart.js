@@ -1,15 +1,18 @@
     let alooParatha = document.querySelector("#Aloo paratha");
-    let alooincrement = document.querySelector("#incrementButton2");
-    let alooDecrement = document.querySelector("#decrementButton2");
     let CartBtn = document.querySelector(".viewcart");
+    let contactBtn = document.querySelector("#About");
     let counter = document.querySelectorAll(".counter");
-    let counter2 = document.querySelectorAll("#counter2");
-    let counter3 = document.querySelectorAll("#counter3");
-    let counter4 = document.querySelectorAll("#counter4");
-    let counter10 = document.querySelectorAll("#counter10");
-    let counter11 = document.querySelectorAll("#counter11");
-    let counter12 = document.querySelectorAll("#counter12");
-    let counter13 = document.querySelectorAll("#counter13");
+    let cart = document.querySelector(" #my-cart");
+    let AlooParatha_count = 0;
+    let maggi_count = 0;
+    let chowmine_count = 0;
+    let vegroll_count = 0;
+    let Tea_count = 0;
+    let coffee_count = 0;
+    let cone_count = 0;
+    let creamBar_count= 0;  
+
+
 
 
 
@@ -17,6 +20,13 @@
 
     let incbtn = document.querySelectorAll(".inc");
     let decbtn = document.querySelectorAll(".dec");
+
+    //allooparatha access
+    let alooincrement = document.querySelector("#incrementButton2");
+    let alooDecrement = document.querySelector("#decrementButton2");
+
+   
+
     // maggi access
     let maggi_increment = document.querySelector("#incrementButton3");
     let maggi_Decrement = document.querySelector("#decrementButton3");
@@ -53,74 +63,92 @@
 
     alooDecrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        AlooParatha_count--;
     });
 
     alooincrement.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        AlooParatha_count++;
     });
 
     //
     maggi_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        maggi_count--;
+        
     });
 
     maggi_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        maggi_count++;
+        
     });
     //
     chowmien_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        chowmine_count--;
     });
 
     chowmien_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        chowmine_count++;
     });
     //
 
     //
     Veg_Roll_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        vegroll_count--;
     });
 
     Veg_Roll_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        vegroll_count++;
     });
     //
     //
     Tea_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        Tea_count--;
     });
 
     Tea_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        Tea_count++;
     });
     //
     //
     coffee_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        coffee_count--;
     });
 
     coffee_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        coffee_count++;
     });
     //
     //
     cone_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        cone_count--;
     });
 
     cone_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        cone_count++;
     });
     //
 
     //
     cream_bar_Decrement.addEventListener('click' , ()=> {
         CartBtn.style.display = "inline";
+        creamBar_count--;
     });
 
     cream_bar_increment.addEventListener("click" , () => {
         CartBtn.style.display = "inline";
+        creamBar_count++;
     });
 
 
@@ -143,9 +171,21 @@ decbtn.forEach(btn => {
    });
 });
 
+contactBtn.addEventListener("click" , ()=> {
+    window.location.href = "about.html";
+})
+
+cart.addEventListener("click" , ()=> {
+    window.location.href = "trial2.html";
+
+})
+
  
  CartBtn.addEventListener("click" , ()=> {
      window.location.href = "trial2.html";
      
     });
 
+
+
+ 
