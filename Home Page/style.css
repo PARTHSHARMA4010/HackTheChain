@@ -35,13 +35,17 @@
 }
 
 .aloo {
-    color: antiquewhite;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left: 250px;
 }
 
 .flex59 {
     display: flex;
-    color: antiquewhite;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left: 700px;
 }
 
@@ -55,40 +59,54 @@
 }
 
 .rate {
-    color: antiquewhite;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left: 355px;
 }
 
 .add {
-    color: antiquewhite;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left: 305px;
 }
 
 .parth {
-    color: antiquewhite;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left: 295px;
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 
 .Tea-Rate {
-    margin-left : 420px;
-    color: white;
+    margin-left :  450px;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
 }
 
 .Cone-Rate {
-    margin-left : 410px;
-    color: white;
+    margin-left : 450px;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
 }
 
 .bar-rate {
-    color: white;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     margin-left : 300px;
 
 }
 
 
 .viewcart {
-    color : white;
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
     position: absolute;
     background-color: orange;
     left : 600px;
@@ -109,13 +127,14 @@
     border-radius: 12px;
     color:white;
     box-shadow: 0 0 30px aqua;
-    animation: zoom-in-zoom-out 1s ease infinite;
+    animation: zoom-in-zoom-out 5s ease infinite;
 
 }
 
 .meal {
-    color: rgb(255, 183, 0);
+    color:rgb(9, 7, 33);
     font-family: cursive;
+    font-size: 27px;
 
 }
 
@@ -124,15 +143,16 @@
 }
 
 .meal2:hover {
-    transform: scale(2.1);
+    transform: scale(1.5);
 
 }
 
 
 .meal2 {
-    color:rgb(255, 183, 0);
+    color:rgb(9, 7, 33);
     font-family: cursive;
-}
+    font-size: 27px;
+}   
 
 .meal {
     position: relative;
@@ -256,6 +276,11 @@
     font-family: cursive;
     box-shadow: 0 0 30px pink;
 
+  }
+
+  .reference {
+    position: sticky;
+    top: 0;
   }
 
 
@@ -446,3 +471,29 @@
     }
 }
 
+
+.toppest {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Align items vertically */
+    z-index: -250;
+}
+
+.toppest img {
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.toppest img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity here */
+}
+
+   
