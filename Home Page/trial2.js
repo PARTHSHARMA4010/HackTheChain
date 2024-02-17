@@ -7,7 +7,7 @@ let creamBar_count = 0;
 let Tea_count = 0;
 let vegroll_count = 0;
 
-fetch('http://localhost:3030/items')
+await fetch('http://localhost:3030/items')
   .then(response => response.json())
   .then(data => {
     data.forEach(item => {
