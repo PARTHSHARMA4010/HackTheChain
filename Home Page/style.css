@@ -35,7 +35,7 @@
 }
 
 .aloo {
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
     font-size: 22px;
     margin-left: 250px;
@@ -43,10 +43,13 @@
 
 .flex59 {
     display: flex;
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
-    font-size: 22px;
-    margin-left: 700px;
+    font-size: 30px;
+    margin-left: 750px;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #4ade80;
+
 }
 
 .item {
@@ -59,21 +62,21 @@
 }
 
 .rate {
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
     font-size: 22px;
     margin-left: 355px;
 }
 
 .add {
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
     font-size: 22px;
     margin-left: 305px;
 }
 
 .parth {
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
     font-size: 22px;
     margin-left: 295px;
@@ -82,20 +85,20 @@
 
 .Tea-Rate {
     margin-left :  450px;
-    color: rgb(22, 13, 1);
+    color:white;
     font-weight: 550;
     font-size: 22px;
 }
 
 .Cone-Rate {
     margin-left : 450px;
-    color: rgb(22, 13, 1);
+    color:white;
     font-weight: 550;
     font-size: 22px;
 }
 
 .bar-rate {
-    color: rgb(22, 13, 1);
+    color: white;
     font-weight: 550;
     font-size: 22px;
     margin-left : 300px;
@@ -120,43 +123,62 @@
 }
 
 .hungry {
-    background-color: black;
-
-    
-    width: 160px;
+    width: 260px;
     border-radius: 12px;
-    color:white;
-    box-shadow: 0 0 30px aqua;
-    animation: zoom-in-zoom-out 5s ease infinite;
+    font-weight: 600;
+    color: white;
+    font-family: cursive;
+    /* box-shadow: 0 0 50px aqua; */
+    background: transparent;
+    /* animation: zoom-in-zoom-out 5s ease infinite; */
+    text-shadow: 2px 2px 4px #1e9bff;
 
 }
 
 .meal {
-    color:rgb(9, 7, 33);
+    color:white;
     font-family: cursive;
     font-size: 27px;
 
 }
 
 .meal:hover {
-    transform: scale(2.2);
+    transform: scale(1.1);
+    
 }
 
 .meal2:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 
 }
 
 
 .meal2 {
-    color:rgb(9, 7, 33);
+    color:white;
     font-family: cursive;
     font-size: 27px;
+    margin-left: 4px;
+
 }   
 
 .meal {
-    position: relative;
+    /* position: relative; */
     display: inline-block;
+    margin-left: 40px;
+
+  }
+
+  #MEAL1 {
+    margin-left: 300px;
+  }
+  #MEAL2 {
+    margin-left: 240px;
+  }
+  #MEAL3 {
+    margin-left: 220px;
+  }
+  #MEAL4 {
+    margin-left: 290px;
   }
   
   .meal::before {
@@ -175,6 +197,26 @@
   }
   
 
+ 
+    /* @keyframes traverse {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      
+      body {
+            top: 50%;
+        left: 0;
+        background-size: cover;
+        animation: traverse 5s linear 
+  } */
+
+  
+
+  
 
   .meal2 {
     position: relative;
@@ -223,19 +265,27 @@
 
 
   .inc {
-    background:aqua;
-    border-radius: 12px;
-    width: 60px;
+    background:#f1f5f900;
+    border-radius: 100px;
+    width: 80px;
+    padding: 10px ;
+    margin: 10px;
     color: black;
     font-weight: 500;
+    color: #f1f5f9;
+    border:3px solid #f1f5f9;
   }
 
   .dec {
-    background:aqua;
-    border-radius: 12px;
-    width: 60px;
+    background:#f1f5f900;
+    border-radius: 100px;
+    width: 80px;
+    padding: 10px ;
+    margin: 10px;
     color: black;
     font-weight: 500;
+    color: #f1f5f9;
+    border:3px solid #f1f5f9;
   }
 
   #home {
@@ -281,12 +331,17 @@
   .reference {
     position: sticky;
     top: 0;
+    
+  }
+
+  #kotaLogo{
+    color: white;
+    font-family: cursive;
   }
 
 
-
   
-  @keyframes zoom-in-zoom-out {
+  /* @keyframes zoom-in-zoom-out {
     0% {
       transform: scale(1, 1);
 
@@ -297,9 +352,18 @@
     100% {
       transform: scale(1, 1);
     }
+  } */
+
+
+  #MEAL{
+    /* margin-left: 200px; */
   }
 
+  .beverages {
+    margin-left: 0px;
+  }
 
+  
 
 
 
@@ -490,10 +554,11 @@
 
 body {
     font-family: sans-serif;
-    background-image: url("back1.jpg");
+    background-image: url("veg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity here */
 }
+
 
    

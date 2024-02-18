@@ -1,6 +1,6 @@
     let alooParatha = document.querySelector("#Aloo paratha");
     let CartBtn = document.querySelector(".viewcart");
-    let contactBtn = document.querySelector("#About");
+    // let contactBtn = document.querySelector("#About");
     let counter = document.querySelectorAll(".counter");
     let cart = document.querySelector(" #my-cart");
     let AlooParatha_count = 0;
@@ -171,9 +171,9 @@ decbtn.forEach(btn => {
    });
 });
 
-contactBtn.addEventListener("click" , ()=> {
-    window.location.href = "about.html";
-})
+// contactBtn.addEventListener("click" , ()=> {
+//     window.location.href = "about.html";
+// })
 
 cart.addEventListener("click" , ()=> {
     window.location.href = "trial2.html";

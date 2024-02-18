@@ -298,3 +298,9 @@
         const isOpen = !menu.classList.contains('hidden');
         document.querySelector('[data-collapse-toggle="navbar-default"]').setAttribute('aria-expanded', isOpen);
     }
+
+
+    const homefinal = document.querySelector("#About")
+    homefinal.addEventListener('click',()=>{
+        window.location.href = "https://parthsharma4010.github.io/Snake-Game/";
+    });

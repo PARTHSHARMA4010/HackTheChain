@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div>
+        <h1 class="head">You are one step away...</h1>
+        <div class="container">
+            <img src="./QR Scanner.jpeg" alt="" width="250px">
+        </div>
+        <div class="utr">
+            <input type="text" id="utrNumber" placeholder="Enter UTR number">
+            <button id="submitBtn">Submit</button>
+        </div>  
+        <div id="paymentSuccessMessage" class="success-message">Order in Process</div>
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>

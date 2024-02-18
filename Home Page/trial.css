@@ -7,8 +7,8 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 100vh;
-    
+    height: 80vh;
+        
 }
 
 
@@ -19,4 +19,6 @@ body{
     font-weight: 800;
     font-family: cursive;
     font-size: xx-large;
+    position: sticky;
+    top: 0;
 }
